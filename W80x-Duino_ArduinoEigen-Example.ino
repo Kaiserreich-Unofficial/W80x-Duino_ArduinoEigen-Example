@@ -1,6 +1,5 @@
 #include "math_completion.h"
 #include "eigen_utils.h"
-
 using namespace Eigen;
 
 void setup()
@@ -11,8 +10,8 @@ void setup()
     // 定义一个3x3矩阵
     MatrixXd m(3, 3);
     m << 1, 2, 3,
-         4, 5, 6,
-         7, 8, 9;
+        4, 5, 6,
+        7, 8, 9;
 
     Serial.println("Original matrix m:");
     printMatrix(m);
